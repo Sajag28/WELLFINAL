@@ -1,0 +1,122 @@
+/* App styles */
+.App {
+    text-align: center;
+    background-color: #fff  ;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    /* font-style: italic ; */
+    color: #333;
+  }
+  
+  /* Doctors container */
+  .doctors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Doctor card */
+  .doctor-card {
+    background-color: #6dc4b3;
+    border: 1px solid #ddd;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .doctor-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .doctor-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .doctor-card strong {
+    color: #333;
+  }
+  
+  /* Ratings */
+  .rating {
+    display: inline-block;
+    background-color: #f8e71c;
+    color: #333;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .doctor-card {
+      width: 100%;
+    }
+  }
+  
+  /* ... Previous styles ... */
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ... Media queries and responsive adjustments ... */
+  
+  /* ... Previous styles ... */
+  
+  .doctor-details-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .doctor-picture {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .doctor-picture img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #6dc4b3;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* ... Media queries and responsive adjustments ... */
+  

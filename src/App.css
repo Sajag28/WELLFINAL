@@ -1,38 +1,118 @@
+/* App.css */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f8;
+    padding: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Doctor Cards */
+  .doctor-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .doctor-card h2 {
+    color: #333;
+    margin-bottom: 10px;
   }
-}
+  
+  .doctor-card p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .rating {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Doctor Details Page */
+  .doctor-details-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .doctor-picture img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+  }
+  
+  .doctor-details h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-details p {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Global Styles */
+  h1 {
+    color: #007bff;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .doctors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Media Query for 14-inch laptop */
+  @media screen and (max-width: 1440px) {
+    .doctor-card {
+      margin: 15px 0;
+      padding: 15px;
+    }
+  
+    .doctor-details-page {
+      flex-direction: column;
+    }
+  
+    .doctor-details {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Doc.css */
+  /* You can add any additional styles specific to the doctor components here. */
+  

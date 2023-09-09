@@ -1,0 +1,54 @@
+/* MentalHealthForm.css */
+.mental-health-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mental-health-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .mental-health-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mental-health-form div {
+    margin-bottom: 20px;
+  }
+  
+  .mental-health-form p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .mental-health-form label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .mental-health-form input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  .mental-health-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .mental-health-form button:hover {
+    background-color: #0056b3;
+} 
+
+  
